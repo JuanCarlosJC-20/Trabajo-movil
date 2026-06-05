@@ -48,6 +48,66 @@ export default function DropdownScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#F3F4F6',
     padding: 20,
+    justifyContent: 'center',
+  },
+
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#4F46E5',
+    marginBottom: 20,
+  },
+
+  pickerContainer: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#4F46E5',
+    overflow: 'hidden',
+
+    // sombra Android
+    elevation: 5,
+
+    // sombra iOS
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+  },
+
+  resultadoContainer: {
+    marginTop: 25,
+    backgroundColor: '#FFFFFF',
+    padding: 15,
+    borderRadius: 12,
+
+    elevation: 3,
+
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+  },
+
+  resultadoTitulo: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#4F46E5',
+    marginBottom: 8,
+  },
+
+  resultadoTexto: {
+    fontSize: 15,
+    color: '#1F2937',
+    lineHeight: 22,
   },
 });
