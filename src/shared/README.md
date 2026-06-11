@@ -1,0 +1,1 @@
+# Shared`r`n`r`nAqui puedes guardar componentes, hooks, constantes y utilidades reutilizables cuando mas de una feature los necesite.`r`n

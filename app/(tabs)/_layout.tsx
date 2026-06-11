@@ -23,7 +23,7 @@ function TabsNavigator() {
           let iconName: keyof typeof Ionicons.glyphMap = "home";
 
           if (route.name === "HomeTab") {
-            iconName = focused ? "home" : "home-outline";
+            iconName = focused ? "bug" : "home-outline";
           } else if (route.name === "ButtonsTab") {
             iconName = focused ? "finger-print" : "finger-print-outline";
           } else if (route.name === "ModalTab") {
@@ -136,7 +136,7 @@ export default function TabsLayout() {
           drawerLabel: "Inicio",
           headerTitle: "Ejercicios React Native",
           drawerIcon: ({ color, size }) => (
-            <Ionicons name="home" size={size} color={color} />
+            <Ionicons name="bug" size={size} color={color} />
           ),
         }}
       />
